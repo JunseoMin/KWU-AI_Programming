@@ -4,21 +4,6 @@ def begin():
     want=input("write what you want: ")
     return want
 
-def changeindex(list):
-    Cstr=[]
-    Rlist=[]
-    str(list).remove("'","[","]")
-    str.sort(".")
-    str.sort(",")
-    Cstr[0]=str[0]
-    Cstr[1]=str[1]
-    
-    
-    Rlist.append(Cstr[0])
-    Rlist.append(Cstr[1])
-    
-    return Rlist
-
 #making dictionary
 def makingDic(str):
     dic={}

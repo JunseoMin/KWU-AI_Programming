@@ -55,7 +55,7 @@ model.summary()
 model.compile(loss = 'categorical_crossentropy', optimizer = 'adam', metrics = ['accuracy'])
 modelpath='./drive/MyDrive/2022_2nd_semister/AI_programming/DATA/HW_5_test'
 checkpointer = ModelCheckpoint(filepath = modelpath, monitor = 'accuracy', verbose = 1, save_best_only = True)
-early_stopping_callback = EarlyStopping(monitor = 'accuracy', patience = 100)
+early_stopping_callback = EarlyStopping(monitor = 'accuracy', patience = 35)
 #patience값이 낮으면 학습이 안돼서 큰 값으로 설정
 #과적합 방지를 위해서 tool flip과 shuffle을 사용했습니다
 

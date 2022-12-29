@@ -1,2 +1,4 @@
 # KWU-AI_Programming
-# 2020741028 민준서입니다!
+Homeworks - turtle
+          - 주식 종가 예측 model
+          - 이미지 분류 mode
